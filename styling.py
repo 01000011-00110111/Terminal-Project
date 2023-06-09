@@ -2,7 +2,7 @@ from colorama import init, Fore, Back, Style
 import os
 import subprocess
 
-file_path = 'login_info.txt'
+file_path = 'login.txt'
 
 def color(coloring):
     if coloring == "0":

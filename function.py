@@ -18,7 +18,7 @@ import styling
 
 # ----- checks account file -----
 def login(username, password):
-    with open('login_info.txt', 'r') as file:
+    with open('login.txt', 'r') as file:
         for line in file:
             line_values = line.strip().split(',')
             if len(line_values) == 4:  # Check if the line has the expected number of values
@@ -46,7 +46,7 @@ def handle_ctrl_c(signum, frame):
 signal.signal(signal.SIGINT, handle_ctrl_c)
 
 # Enable command history and command logging
-history_file = os.path.expanduser("console_command_log.txt")
+history_file = os.path.expanduser("command_log.txt")
 if os.path.exists(history_file):
     readline.read_history_file(history_file)
 

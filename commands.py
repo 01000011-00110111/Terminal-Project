@@ -33,7 +33,7 @@ def color(mydict):
         if var_1_value == "help":
             color_help()
         elif var_1_value == "reset":
-            color_reset()
+            styling.color("0")
 
 
 
@@ -43,14 +43,14 @@ def color_help():
     - Background: black
     - Text color: white
 1:
-    - Background: 
-    - Text color: 
+    - Background: white
+    - Text color: black
 2:
-    - Background: 
-    - Text color: 
+    - Background: black
+    - Text color: blue
 3:
-    - Background: 
-    - Text color: 
+    - Background: black
+    - Text color: green
     '''
     print(color_help_response)
 
