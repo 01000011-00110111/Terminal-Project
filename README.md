@@ -1,5 +1,5 @@
-# BTG-Terminal
-This is the terimnal for the SC website 
+# Terminal
+This is the terimnal that i made as a fun test and with some weard commands
 
  - before starting you must add a command_log.txt
  - then you must add a login.txt
